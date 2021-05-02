@@ -15,3 +15,4 @@ Here is a [link](https://en.wikipedia.org/wiki/Mindset) to a page of growth mind
 My name's Hasan Theyab,I'm a civil engineer,I have windows 10 Pro as operating system for my laptop,I'm excited for this class because it's teaching me how to build websites in very easy way.
 
 https://hasan-theyab.github.io/reading-notes/
+
