@@ -6,7 +6,7 @@ My name's Hasan Theyab,I'm a civil engineer,I have windows 10 Pro as operating s
 
 | Assignment  | Link        |
 | ----------- | ----------- |
-| Lab 01      | [Lab 01](Lab01.md)   |
+| Lab1        | [Lab1](Lab1.md)   |
 | read 01     | [read 01](read1.md)     |
 | read 02     | [read 02](read2.md)     |
 
