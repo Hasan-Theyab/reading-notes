@@ -13,6 +13,8 @@ My name's Hasan Theyab,I'm a civil engineer,I have windows 10 Pro as operating s
 | read 03b    | [read 03b](read3b.md)   |
 | read 04     | [read 04](read4.md)     |
 | read 05     | [read 05](read5.md)     |
+| read 06     | [read 06](read6.md)     |
+
 
 
 
