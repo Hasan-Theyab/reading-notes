@@ -43,13 +43,13 @@ used in this element. The value
 of this attribute on this page
 specifies it is in US English
 
-<body>
+<body> element:
 You met the <body> element
 in the first example we created.
 Everything inside this element is
 shown inside the main browser
 window.
-<head>
+<head> element:
 Before the <body> element you
 will often see a <head> element.
 This contains information
@@ -61,7 +61,7 @@ blue on the opposite page).
 You will usually find a <title>
 element inside the <head>
 element.
-<title>
+<title> element:
 The contents of the <title>
 element are either shown in the
 top of the browser, above where
@@ -73,23 +73,23 @@ to view multiple pages at the
 
 ## EXTRA MARKUP
 HTML 5:
-<!DOCTYPE html>
+<!DOCTYPE html> elment:
 HTML 4:
 <!DOCTYPE html PUBLIC
 "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+"http://www.w3.org/TR/html4/loose.dtd"> element
 Transitional XHTML 1.0:
 <!DOCTYPE html PUBLIC
 "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/
-xhtml1-transitional.dtd">
+xhtml1-transitional.dtd"> element
 Strict XHTML 1.0:
 <!DOCTYPE html PUBLIC
 "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/
-xhtml1-strict.dtd">
+xhtml1-strict.dtd">element
 XML Declaration:
-<?xml version="1.0" ?>
+<?xml version="1.0" ?> element
 DOCTYPES tell browsers which version of HTML you are using.
 
 You can add comments to your code between the <!-- and --> markers.
