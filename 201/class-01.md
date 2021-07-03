@@ -50,8 +50,12 @@ Everything inside this element is
 shown inside the main browser
 window.
 <head> element:
+
+
 Before the <body> element you
 will often see a <head> element.
+
+
 This contains information
 about the page (rather than
 information that is shown within
@@ -65,7 +69,10 @@ HTML 5:
 HTML 4:
 <!DOCTYPE html PUBLIC
 "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd"> element
+"http://www.w3.org/TR/html4/loose.dtd">
+
+
+ element
 Transitional XHTML 1.0:
 <!DOCTYPE html PUBLIC
 "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -124,24 +131,37 @@ characters:
 
 Example:
 <!-- start of introduction -->
+
+
 <h1>Current Exhibitions</h1>
+
 <h2>Olafur Eliasson</h2>
+
+
 <!-- end of introduction -->
 <!-- start of main text -->
+
+
 <p>Olafur Eliasson was born in Copenhagen, Denmark
 in 1967 to Icelandic parents.</p>
+
+
 <p>He is known for sculptures and large-scale
 installation art employing elemental materials
 such as light, water, and air temperature to
 enhance the viewer's experience.</p>
+
+
 <!-- end of main text -->
 <!--
 <a href="mailto:info@example.org">Contact</a>
 -->
 
+
 There are some characters that are used in
 and reserved by HTML code. (For example, the
 left and right angled brackets.)
+
 
 HTML5 is introducing a new set of
 elements that help define the structure of
@@ -182,8 +202,12 @@ How JavaScript makes webpages more interavtive:
 
 1 ACCESS CONTENT
 You can use JavaScript to select any element, attribute, or text from an HTML page. For example:
+
+
 • Select the text inside all of the <hl> elements on a page
+
 • Select any elements that have a class attribute with a value of note
+
 • Find out what was entered into a text input whose id attribute has a
   value of email 
 
@@ -191,27 +215,39 @@ You can use JavaScript to select any element, attribute, or text from an HTML pa
 
 You can use JavaScript to add elements, attributes, and text to the
 page, or remove them. For example:
+
 • Add a paragraph of text after the first <hl> element
+
 • Change the value of class attributes to trigger new CSS rules
   for those elements
+
 • Change the size or position of an <img> element
 
 3 PROGRAM RULES
 
 You can specify a set of steps for the browser to follow (like a recipe), which allows it to access or change the content of a page. For example:
+
 • A gallery script could check which image a user clicked on and        display a larger version of that image.
+
 • A mortgage calculator could collect values from a form, perform a     calculation, and display repayments.
+
 • An animation could check the dimensions of the browser window
   and move an image to the bottom of the viewable area (also known as
   the viewport).
 
 4 REACT TO EVENTS
 You can specify that a script should run when a specific event has occurred. For example, it could be run when:
+
 • A button is pressed
+
 • A link is clicked (or tapped) on
+
 • A cursor hovers over an element
+
 • Information is added to a form
+
 • An interval of time has passed
+
 • A web page has finished loading
 
 A script is a series of instructions that a computer can follow to achieve a goal.
@@ -223,6 +259,7 @@ You need to learn to "think" like a computer because they solve
 tasks in different ways than you or I might approach them.
 
 Often scripts will need to perform different tasks in different situations. You can use flowcharts to work out how the tasks fit together.
+
 The flowcharts show the paths between each step.
 A script is a series of instructions that the computer
 can follow in order to achieve a goal
