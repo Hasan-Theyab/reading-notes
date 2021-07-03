@@ -2,11 +2,9 @@
 
 My name's Hasan Theyab,I'm a civil engineer,I have windows 10 Pro as operating system for my laptop,I'm excited for this class because it's teaching me how to build websites in very easy way.
 
-<<<<<<< HEAD
 
 ***This site is to show the summarizings that we've done in the reading assignments on GitHub.***
-=======
->>>>>>> ad492407f794b92fa8da405d6ce3fcca39055e8c
+
 
 # Code 102 Reading Notes
 **Table of Contents:**
@@ -22,7 +20,7 @@ My name's Hasan Theyab,I'm a civil engineer,I have windows 10 Pro as operating s
 | read 05     | [read 05](102/read5.md)     |
 | read 06     | [read 06](102/read6.md)     |
 
-<<<<<<< HEAD
+
 
 # Code 201 Reading Notes
 **Table of Contents:**
@@ -47,6 +45,6 @@ My name's Hasan Theyab,I'm a civil engineer,I have windows 10 Pro as operating s
 
 
 
-=======
 
->>>>>>> ad492407f794b92fa8da405d6ce3fcca39055e8c
+
+
