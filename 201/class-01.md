@@ -58,9 +58,8 @@ information that is shown within
 the main part of the browser
 window that is highlighted in
 blue on the opposite page).
-You will usually find a <title>
-element inside the <head>
-element.
+
+
 <title> element:
 The contents of the <title>
 element are either shown in the
