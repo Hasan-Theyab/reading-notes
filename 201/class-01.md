@@ -59,17 +59,6 @@ the main part of the browser
 window that is highlighted in
 blue on the opposite page).
 
-
-<title> element:
-The contents of the <title>
-element are either shown in the
-top of the browser, above where
-you usually type in the URL of
-the page you want to visit, or
-on the tab for that page (if your
-browser uses tabs to allow you
-to view multiple pages at the
-
 ## EXTRA MARKUP
 HTML 5:
 <!DOCTYPE html> elment:
