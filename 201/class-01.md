@@ -131,6 +131,7 @@ characters:
 
 Example:
 
+
 (<!-- start of introduction -->)
 
 
@@ -156,12 +157,6 @@ such as light, water, and air temperature to
 enhance the viewer's experience.</p>)
 
 
-(<!-- end of main text -->)
-
-
-(<!--
-<a href="mailto:info@example.org">Contact</a>
--->)
 
 
 There are some characters that are used in
@@ -180,13 +175,6 @@ have seen how CSS can control the layout a page. These
 new elements are going to play an important part in creating
 layouts going forward. 
 
-Example Site Map:
-                          Home
-About           Articles       Visit             Shop      Contact
-History         News            Location          Books
-Foundation      Book Reviews    Opening Times     Gifts
-Future Plans    Press 
-                Interviews      Tickets
 
 It's important to understand who your target audienceis, why they would come to your site, what information they want to find and when they are likely to return.
 
@@ -207,6 +195,7 @@ is used to change the contents of an HTML page.
 How JavaScript makes webpages more interavtive:
 
 1 ACCESS CONTENT
+
 You can use JavaScript to select any element, attribute, or text from an HTML page. For example:
 
 
