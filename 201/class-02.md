@@ -15,6 +15,7 @@ acronyms used, when given text is a quotation).
 Example TEXT:
 
 
+
 ("<html>
     <head>
     <title>Text</title>
@@ -44,6 +45,8 @@ Example TEXT:
 </html>")
 
 
+
+
 ### Semantic Markup
 
 
@@ -54,8 +57,10 @@ Example TEXT:
     the page.
 
 
-2- ("<strong>")
-    The use of the ("<strong>")
+
+
+2- (<strong>)
+    The use of the (<strong>)
     element indicates that its
     content has strong importance.
     For example, the words
@@ -64,11 +69,12 @@ Example TEXT:
 
 
 
-3- ("<cite>")
+
+3- (<cite>)
     When you are referencing a
     piece of work such as a book,
     film or research paper, the
-    <cite> element can be used
+    (<cite>) element can be used
     to indicate where the citation is
     from.
 
@@ -114,6 +120,8 @@ and a separate CSS file (example.css). The fifth line of HTML uses the
 ("<link>") element to indicate where the CSS file is located
 
 
+
+
 ("<!DOCTYPE html>
     <html>
     <head>
@@ -136,6 +144,7 @@ and a separate CSS file (example.css). The fifth line of HTML uses the
     color: #ee3e80;}
     p {
     color: #665544;}")
+
 
 
 
@@ -220,6 +229,9 @@ Expressions rely on operators to calculate a value.
 
 EXAMPLE:
 
+
+
+
 ("<!DOCTYPE html>
     <html>
     <head>
@@ -262,6 +274,7 @@ EXAMPLE:
 
 
 
+
 # Chapter 4: Decisions and Loops
 
 Conditional statements allow your code to make
@@ -296,6 +309,8 @@ do ... while. Each repeats a set of statements
 
 EXAMPLE: IF STATEMENT
 
+
+
 ("var score 75; // Score
     var msg; // Message
     if (score>= 50) { // If score is 50 or higher
@@ -303,6 +318,8 @@ EXAMPLE: IF STATEMENT
     msg += ' Proceed to the next round . ' ;
     var el = document.getElementByld('answer ' ) ;
     el .textContent = msg;")
+
+
 
 
 EXAMPLE: IF...ELSE STATEMENT
@@ -321,12 +338,17 @@ EXAMPLE: IF...ELSE STATEMENT
     var el = document .getElementByld('answer');
     el .textContent = msg;))
 
+
+
+
 EXAMPLE: SWITCH STATEMENT
 
 (var msg;                   // Message
  var level = 2;            // Level
  
-    
+
+
+
  // Determine message based on level
  switch (level) {
     case 1:
@@ -344,5 +366,8 @@ EXAMPLE: SWITCH STATEMENT
     }    
     var el = document.getEl ementByld('answer ' );
     el .textContent = msg;)
+
+
+
 
 
