@@ -1,14 +1,9 @@
 # Chapter 2: Text
 
-HTML elements are used to describe the structure of
-the page (e.g. headings, subheadings, paragraphs).
+HTML elements are used to describe the structure of the page (e.g. headings, subheadings, paragraphs).
 
 
-They also provide semantic information (e.g. where
-
-emphasis should be placed, the definition of any
-
-acronyms used, when given text is a quotation).
+They also provide semantic information (e.g. where emphasis should be placed, the definition of any acronyms used, when given text is a quotation).
 
 
 
@@ -59,8 +54,7 @@ Example TEXT:
 
 
 
-2- (<strong>)
-    The use of the (<strong>)
+2- (<strong>): The use of the (<strong>)
     element indicates that its
     content has strong importance.
     For example, the words
@@ -70,8 +64,7 @@ Example TEXT:
 
 
 
-3- (<cite>)
-    When you are referencing a
+3- (<cite>): When you are referencing a
     piece of work such as a book,
     film or research paper, the
     (<cite>) element can be used
