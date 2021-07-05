@@ -23,7 +23,7 @@ term.
 
 EXAMPLE:
 
-(<html>)
+{%(<html>)
 <head>
 <title>Lists</title>
 </head>
@@ -51,7 +51,7 @@ heat (it will continue to cook on the plate
 until served)</li>
 </ol>
 </body>
-(</html>)
+(</html>)%}
 
 
 CSS treats each HTML element as if it has its own box.
@@ -88,7 +88,7 @@ Padding is the space between the border of a box and any content contained withi
 
 EXAMPLE:
 
-(<!DOCTYPE html>
+{%(<!DOCTYPE html>
 <html>
 <head>
 <title>Boxes</title>
@@ -122,7 +122,7 @@ p {
 text-align: center;
 width: 600px;
 margin: 20px auto 20px auto;
-font-weight: normal;})
+font-weight: normal;})%}
 
 
 Sometimes you will want to use a double or single quote mark
@@ -156,7 +156,7 @@ more lines to make it easier to read and understand.
 
 EXAMPLE:
 
-(var inStock;
+%{(var inStock;
 var shipping;
 inStock = true;
 shipping = false;
@@ -169,7 +169,7 @@ shipping = true;
 var elStock = document.getElementByld('stock');
 elStock .className = inStock;
 var elShip = document .getElementByld('shipping');
-elShip .className = shipping;)
+elShip .className = shipping;)%}
 
 
 A switch statement starts with a variable called the switch value.
@@ -215,7 +215,7 @@ issues relating to this property.
 EXAMPLE:
 
 
-var scores= [24. 32, 17];                    //Array of scores
+{%var scores= [24. 32, 17];                    //Array of scores
 var arraylength scores .length;             // Items in array
 var roundNumber = O;                        //Current round
 var msg '';                                 //Message
@@ -229,6 +229,6 @@ roundNumber = (i + l);
 msg += 'Round ' + roundNumber + ' : ';
 //Get the score from the scores array
 msg += scores[i] + ('<br / >') ;
-document .getElementByid( ' answer') .innerHTML msg;
+document .getElementByid( ' answer') .innerHTML msg;%}
 
 
