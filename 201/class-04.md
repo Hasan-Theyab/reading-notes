@@ -25,24 +25,37 @@ To write good link text, you can think of words people might use when searching 
 ### Relative Link Type
 
 ### Same Folder
+
 To link to a file in the same folder, just use the file name. (Nothing else is needed.)
+
 ### Child Folder
-For a child folder, use the name of the child folder, followed by a forward slash, then the file name.
+
+For a child folder, use the name of the child folder, followed by a 
+forward slash, then the file name.
+
 ### Grandchild Folder
+
 Use the name of the child folder, followed by a forward slash, then the name of the grandchild folder, followed by another forward slash, then the file name.
+
 ### Parent Folder
+
 Use ../ to indicate the folder above the current one, then follow it with the file name.
+
 ### GrandParent Folder
+
 Repeat the ../ to indicate that you want to go up two folders (rather than one), then follow it with the file name.
 
 ### Email Links
 
-### mailto: 
-To create a link that starts up the user's email program and addresses an email to a specified email address, you use the []: #(<a>) element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.On the right you can see that an email link looks just like any other link but, when it is clicked on, the user's email program will open a new email message and address it to the person
+### mailto:
+
+To create a link that starts up the user's email program and addresses an email to a specified email address, you use the ("<a>") element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.On the right you can see that an email link looks just like any other link but, when it is clicked on, the user's email program will open a new email message and address it to the person
 specified in the link.
 
 ### Opening Links in a New Window
+
 ### target
+
 If you want a link to open in a new window, you can use the target attribute on the opening (<a>) tag. The value of this attribute should be _blank. One of the most common reasons a web page author might want a link to be opened in a new window is if it points to another website. In such cases, they hope the user will return to the window containing their
 site after finishing looking at the other one. Generally you should avoid
 opening links in a new window, but if you do, it is considered good practice to inform users that the link will open a new window before they click on it.
@@ -167,25 +180,25 @@ as a global variable (this is considered bad practice).
 
 ### 6 Reasons for Pair Programming
 
-1-  Greater efficiency.
+1-  Greater efficiency:
     It is a common misconception that pair programming takes a lot longer and is less efficient. In reality, when two people focus on the same code base, it is easier to catch mistakes in the making.
 
 
-2-  Engaged collaboration.
+2-  Engaged collaboration:
     When two programmers focus on the same code, the experience is more engaging and both programmers are more focused than if they were working alone.
 
 
-3-  Learning from fellow students.
+3-  Learning from fellow students:
     Everyone has a different approach to problem solving; working with a teammate can expose developers to techniques they otherwise would not have thought of. If one developer has a unique approach to a specific problem, pair programming exposes the other developer to a new solution.
 
 
-4-  Social skills.
+4-  Social skills:
     Pair programming is great for improving social skills. When working with someone who has a different coding style, communication is key.
 
 
-5-  Job interview readiness.
+5-  Job interview readiness:
     A common step in many interview processes involves pair programming between a current employee and an applicant, either in person or through a shared screen. They will carry out exercises together, such as code challenges, building a project or feature, or debugging an existing code base. By doing so, companies can get a better feel for how an applicant will fit into the team and their collaboration style.
 
 
-6-  Work environment readiness.
+6-  Work environment readiness:
     Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product. Code Fellows graduates who are already familiar with how pairing works can hit the ground running at a new job, with one less hurdle to overcome.
