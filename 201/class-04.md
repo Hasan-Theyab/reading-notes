@@ -10,6 +10,7 @@ You can use the id attribute to target elements within a page that can be linked
 
 
 ### Writing Links
+
 Links are created using the ) element. Users can click on anything between the opening (<a>) tag and the closing (</a>) tag. You specify which page you want to link to using the href attribute.
 
 The text between the opening (<a>) tag and closing (</a>) tag is known as link text. Where possible, your link text should explain where visitors will be taken if they click on it (rather than just saying "click here").
@@ -37,7 +38,7 @@ Repeat the ../ to indicate that you want to go up two folders (rather than one),
 ### Email Links
 
 ### mailto: 
-To create a link that starts up the user's email program and addresses an email to a specified email address, you use the (<a>) element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.On the right you can see that an email link looks just like any other link but, when it is clicked on, the user's email program will open a new email message and address it to the person
+To create a link that starts up the user's email program and addresses an email to a specified email address, you use the []: #(<a>) element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.On the right you can see that an email link looks just like any other link but, when it is clicked on, the user's email program will open a new email message and address it to the person
 specified in the link.
 
 ### Opening Links in a New Window
@@ -51,6 +52,7 @@ opening links in a new window, but if you do, it is considered good practice to 
 Browsers display pages in normal flow unless you specify relative, absolute, or fixed positioning.
 
 ### Building Blocks
+
 CSS treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline box.
 
 Block-level boxes start on a new line and act as the main building blocks
