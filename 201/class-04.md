@@ -1,6 +1,6 @@
-Links are created using the <a> element.
+Links are created using the (<a>) element.
 
-The <a> element uses the href attribute to indicate the page you are linking to.
+The (<a>) element uses the href attribute to indicate the page you are linking to.
 
 If you are linking to a page within your own site, it is best to use relative links rather than qualified URLs.
 
@@ -10,9 +10,9 @@ You can use the id attribute to target elements within a page that can be linked
 
 
 ### Writing Links
-Links are created using the ) element. Users can click on anything between the opening <a> tag and the closing </a> tag. You specify which page you want to link to using the href attribute.
+Links are created using the ) element. Users can click on anything between the opening (<a>) tag and the closing (</a>) tag. You specify which page you want to link to using the href attribute.
 
-The text between the opening <a> tag and closing </a> tag is known as link text. Where possible, your link text should explain where visitors will be taken if they click on it (rather than just saying "click here").
+The text between the opening (<a>) tag and closing (</a>) tag is known as link text. Where possible, your link text should explain where visitors will be taken if they click on it (rather than just saying "click here").
 
 
 Many people navigate websites by scanning the text for links. Clear link text can help visitors find what they want. This will give them a more positive impression of your site and may encourage them to visit it for longer. (It also helps people using screen reader software.)
@@ -37,16 +37,16 @@ Repeat the ../ to indicate that you want to go up two folders (rather than one),
 ### Email Links
 
 ### mailto: 
-To create a link that starts up the user's email program and addresses an email to a specified email address, you use the <a> element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.On the right you can see that an email link looks just like any other link but, when it is clicked on, the user's email program will open a new email message and address it to the person
+To create a link that starts up the user's email program and addresses an email to a specified email address, you use the (<a>) element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.On the right you can see that an email link looks just like any other link but, when it is clicked on, the user's email program will open a new email message and address it to the person
 specified in the link.
 
 ### Opening Links in a New Window
 ### target
-If you want a link to open in a new window, you can use the target attribute on the opening <a> tag. The value of this attribute should be _blank. One of the most common reasons a web page author might want a link to be opened in a new window is if it points to another website. In such cases, they hope the user will return to the window containing their
+If you want a link to open in a new window, you can use the target attribute on the opening (<a>) tag. The value of this attribute should be _blank. One of the most common reasons a web page author might want a link to be opened in a new window is if it points to another website. In such cases, they hope the user will return to the window containing their
 site after finishing looking at the other one. Generally you should avoid
 opening links in a new window, but if you do, it is considered good practice to inform users that the link will open a new window before they click on it.
 
-<div> elements are often used as containing elements to group together sections of a page.
+(<div>) elements are often used as containing elements to group together sections of a page.
 
 Browsers display pages in normal flow unless you specify relative, absolute, or fixed positioning.
 
@@ -68,15 +68,15 @@ Inline elements
 flow in between
 surrounding text
 Examples include:
-<img> <b> <i>
+(<img>) (<b>) (<i>)
 
 
 Containing Elements If one block-level element sits inside another block-level element then the outer box is known as the containing or parent element.
 
-It is common to group a number of elements together inside a <div>
+It is common to group a number of elements together inside a (<div>)
 (or other block-level) element. For example, you might group together
 all of the elements that form the header of a site (such as the logo and
-the main navigation). The <div> element that contains this group of elements is then referred to as the containing element.
+the main navigation). The (<div>) element that contains this group of elements is then referred to as the containing element.
 
 CSS has the following positioning schemes that allow you to control
 the layout of a page: normal flow, relative positioning, and absolute
@@ -113,6 +113,7 @@ Floating an element allows you to take that element out of normal flow and posit
 element becomes a block-level element around which other content can flow.
 
 DECLARING A FUNCTION
+
 To create a function, you give it a name and then write the statements needed to achieve its task iside the curly braces.
 
 You declare a function using the function keyword 
@@ -122,6 +123,7 @@ You give the function a name (sometimes called identifiers followed by parenthes
 The statements that perform the task sit in a code block (They are inside curly braces).
 
 CALLING A FUNCTION
+
 Having declared the function, you can then execute all of statements between its curly braces with just one line of code.
 
 
@@ -130,6 +132,7 @@ Functions allow you to group a set of related statements together that represent
 Functions can take parameters (informatiorJ required to do their job) and may return a value.
 
 LOCAL VARIABLES
+
 When a variable is created inside a function using the var keyword, it can only be used in that function. It is called a local variable or function-level variable. It is said to have local scope or function-level scope. It cannot be accessed outside of the function in which it was declared. Below, area is a local variable.
 
 The interpreter creates local variables when the
@@ -165,17 +168,22 @@ as a global variable (this is considered bad practice).
 1-  Greater efficiency.
     It is a common misconception that pair programming takes a lot longer and is less efficient. In reality, when two people focus on the same code base, it is easier to catch mistakes in the making.
 
+
 2-  Engaged collaboration.
     When two programmers focus on the same code, the experience is more engaging and both programmers are more focused than if they were working alone.
+
 
 3-  Learning from fellow students.
     Everyone has a different approach to problem solving; working with a teammate can expose developers to techniques they otherwise would not have thought of. If one developer has a unique approach to a specific problem, pair programming exposes the other developer to a new solution.
 
+
 4-  Social skills.
     Pair programming is great for improving social skills. When working with someone who has a different coding style, communication is key.
 
+
 5-  Job interview readiness.
     A common step in many interview processes involves pair programming between a current employee and an applicant, either in person or through a shared screen. They will carry out exercises together, such as code challenges, building a project or feature, or debugging an existing code base. By doing so, companies can get a better feel for how an applicant will fit into the team and their collaboration style.
+
 
 6-  Work environment readiness.
     Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product. Code Fellows graduates who are already familiar with how pairing works can hit the ground running at a new job, with one less hurdle to overcome.
