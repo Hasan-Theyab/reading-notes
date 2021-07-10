@@ -126,6 +126,12 @@ The uppercase letter is supposed to help remind developers to use the new keywor
 - Arrays and objects can be used to create complex data sets (and both can contain the other).
 
 
+
+The Document Object Model (DOM) specifies how browsers should create a model of an HTML
+page and how JavaScript can access and update the contents of a web page while it is in the browser window.
+The DOM is neither part of HTML, nor part of JavaScript; it is a separate set of rules.
+
+
 The browser represents the page using a DOM tree.
 
 DOM trees have four types of nodes: document nodes, element nodes, attribute nodes, and text nodes.
@@ -139,3 +145,45 @@ From an element node, you can access and update its content using properties suc
 
 
 An element node can contain multiple text nodes and child elements that are siblings of each other.
+
+In older browsers, implementation of the DOM is inconsistent (and is a popular reason for using jQuery).
+
+Browsers offer tools for viewing the DOM tree .
+
+EXAMPLE:
+
+// ADDING ITEMS TO START AND ENO OF LIST
+var list = document .get El ementsByTagName( ' ul ')[OJ; // Get the <u l> element
+// ADD NEW ITEM TO END OF LIST
+var newitemLast = document . createElement('li '); // Create element
+var newTextLast = document .createTextNode{'cream'); // Create text node
+newitemLast.appendChild(newTextLast);                // Add text node to element                
+list.appendChild(newitemLast);                         // Add element end of list
+
+
+
+
+// ADD NEW ITEM START OF LIST
+var newitemFirst = document . createElement('li ') ;  // Create element
+var newTextFirst = document.createTextNode('kale');   // Create text node
+newitemFirst.appendChild(newTextFirst);               //Add text node to element
+list . insertBefore(newitemFirst, list . firstChild); // Add element to list
+
+
+var list Items = document.querySelectorAl l (' l i '); //!All <li> elements
+
+//ADD A CLASS OF COOL TO ALL LIST ITEMS
+var i;                                              //Counter variable
+for (i = 0; i < listltems . length; i++) {          // Loop through elements
+listltems[i] .className = 'cool';                   //Change class to cool
+}
+
+
+// ADD NUMBER OF ITEMS IN THE LIST TO THE HEADING
+var heading = document .querySelector('h2');        // h2 element
+var headingText = heading.firstChild.nodeValue;     // h2 text
+var totalltems = listitems. length ;                //No. of <li> elements
+var newHeading = headingText + ' <span>' + totalitems + '</span>';       // Content
+heading.textContent = newHeading;                   //Update h2
+
+
