@@ -57,41 +57,19 @@ Grids allow us to understand complex data by referencing information on two axes
 Each block in the grid is referred to as a table cell. In HTML a table is written out row by row.
 
 EXAMPLE:
-<html>
-<head>
-<title>Tables</title>
-</head>
-<body>
-<table>
-<thead>
-<tr>
-<th></th>
-<th scope="col">Home starter hosting</th>
-<th scope="col">Premium business hosting</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row">Disk space</th>
-<td>250mb</td>
-<td>1gb</td>
-</tr>
-<tr>
-<th scope="row">Bandwidth</th>
+(' <!-- html><head><title>Tables</title></head><body><table><thead>
+<tr><th></th><th scope="col">Home starter hosting</th>
+<th scope="col">Premium business hosting</th></tr>
+</thead><tbody><tr><th scope="row">Disk space</th>
+<td>250mb</td><td>1gb</td>
+</tr><tr> <th scope="row">Bandwidth</th>
 <td>5gb per month</td>
-<td>50gb per month</td>
-</tr>
+<td>50gb per month</td></tr>
 <!-- more rows like the two above here -->
-</tbody>
-<tfoot>
-<tr>
-<td></td>
-<td colspan="2">Sign up now and save 10%!</td>
-</tr>
-</tfoot>
-</table>
-</body>
-</html>
+</tbody><tfoot>
+<tr><td></td><td colspan="2">Sign up now and save 10%!</td>
+</tr></tfoot></table>
+</body></html -->')
 
 An object is a series of variables and functions that represent something from the world around you.
 
