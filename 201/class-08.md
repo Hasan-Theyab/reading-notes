@@ -53,7 +53,7 @@ It is interesting to note that the higher the resolution, the smaller the text a
 Judging the height that people are likely to see on the screen without scrolling down the page is much harder. For several years, designers assumed that users would see the top 570- 600 pixels of a page without
 having to scroll and some tried to fit all of the key messages in
 this area (fearing that people would not scroll down the page).
-- 
+
 
 As screen sizes have increased and handheld devices have become more popular, the area users will see is far more variable.
 
