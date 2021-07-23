@@ -22,7 +22,7 @@
 
 
 
-### IMAGE ROLLOVERS & SPRITES
+#### IMAGE ROLLOVERS & SPRITES
 
 Using CSS, it is possible to create a link or button that changes to a second style when a user moves their mouse over it (known as a **rollover**) and a third style when they click on it.
 
@@ -87,7 +87,7 @@ background-position: -175px -80px;}
 
 
 
-### FTP & Third Party Tools
+#### FTP & Third Party Tools
 
 To transfer your code and images from your computer to your hosting company, you use something known as File Transfer Protocol.
 
@@ -165,7 +165,7 @@ addtoany.com
 
 # Video and Audio APIs
 
-### HTML5 video and audio
+#### HTML5 video and audio
 
 The (video) and (audio) elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
 
@@ -183,7 +183,7 @@ This is not as immediately useful for video playback, but it does have advantage
 
 You can solve both these problems by hiding the native controls (by removing the controls attribute), and programming your own with HTML, CSS, and JavaScript.
 
-### Exploring the HTML
+#### Exploring the HTML
 
 * The video element contains two source elements so that different    formats can be loaded depending on the browser viewing the site.
 
@@ -196,7 +196,7 @@ You can solve both these problems by hiding the native controls (by removing the
 
     * There is also a timer <div>, which will report the elapsed time when  the video is playing. Just for fun, we are providing two reporting mechanisms — a span containing the elapsed time in minutes and seconds, and an extra <div> that we will use to create a horizontal indicator bar that gets longer as the time elapses.
 
-### Exploring the CSS
+#### Exploring the CSS
 
 * We set the outer .timer <div> to have flex: 5, so it takes up most of the width of the controls bar. We also give it position: relative, so that we can position elements inside it conveniently according to it's boundaries, and not the boundaries of the <body> element.
 
@@ -209,7 +209,7 @@ You can solve both these problems by hiding the native controls (by removing the
 
 * We also give our inner <div> and (span) tag the right amount of z-index so that the timer will be displayed on top, and the inner <div> below that. This way, we make sure we can see all the information — one box is not obscuring another.
 
-### Implementing the JavaScript
+#### Implementing the JavaScript
 
 1. First of all, we work out the number of minutes and seconds in the  HTMLMediaElement.currentTime value.
 
