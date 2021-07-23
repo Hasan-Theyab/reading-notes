@@ -10,7 +10,7 @@
 
 
 
--Background images can appear just once or be repeated across the background of the box.
+- Background images can appear just once or be repeated across the background of the box.
 
 
 - You can create image rollover effects by moving the background position of an image.
@@ -22,9 +22,9 @@
 
 
 
-## IMAGE ROLLOVERS & SPRITES
+##### IMAGE ROLLOVERS & SPRITES
 
-Using CSS, it is possible to create a link or button that changes to a second style when a user moves their mouse over it (known as a *rollover*) and a third style when they click on it.
+Using CSS, it is possible to create a link or button that changes to a second style when a user moves their mouse over it (known as a **rollover**) and a third style when they click on it.
 
 
 This is achieved by setting a background image for the link or button that has three different styles of the same button (but only allows enough space to show one of them at a time). You can see the image we are using in this example on the right. It actually features two buttons on the one image.
@@ -33,16 +33,16 @@ This is achieved by setting a background image for the link or button that has t
 When the user moves their mouse over the element, or clicks on it, the position of the background image is moved to show the relevant image.
 
 
-When a single image is used for several different parts of an interface, it is known as a *sprite*. You can add the logo and other interface elements, as well as buttons to the image.
+When a single image is used for several different parts of an interface, it is known as a **sprite**. You can add the logo and other interface elements, as well as buttons to the image.
 
 
 The advantage of using sprites is that the web browser only needs to request one image rather than many images, which can make the web page load faster.
 
 HTML CODE:
-<a class="button" id="add-to-basket">
+<!-- <a class="button" id="add-to-basket">
 Add to basket</a>
 <a class="button" id="framing-options">
-Framing options</a>
+Framing options</a> -->
 
 
 
@@ -87,7 +87,7 @@ background-position: -175px -80px;}
 
 
 
-## FTP & Third Party Tools
+##### FTP & Third Party Tools
 
 To transfer your code and images from your computer to your hosting company, you use something known as File Transfer Protocol.
 
@@ -112,27 +112,27 @@ When you purchase your web hosting, you will be given FTP details that you enter
 
 Here is a list of some popular FTP applications:
 
-*FileZilla*
+**FileZilla**
 filezilla-project.org
 Windows, Mac, Linux
 
 
-*FireFTP*
+**FireFTP**
 fireftp.mozdev.org
 Windows, Mac, Linux
 
 
-*CuteFTP*
+**CuteFTP**
 cuteftp.com
 Windows, Mac
 
 
-*SmartFTP*
+**SmartFTP**
 smartftp.com
 WIndows
 
 
-*Transmit*
+**Transmit**
 panic.com/transmit
 Mac
 
@@ -165,15 +165,15 @@ addtoany.com
 
 # Video and Audio APIs
 
-## HTML5 video and audio
+##### HTML5 video and audio
 
-The <video> and <audio> elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
+<!-- The (<video>) and <audio> elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this: -->
 
-<video controls>
+<!-- <video controls>
   <source src="rabbit320.mp4" type="video/mp4">
   <source src="rabbit320.webm" type="video/webm">
   <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
-</video>
+</video> -->
 
 
 This creates a video player inside the browser, the most interesting attribute is controls, which enables the default set of playback controls. If you don't specify this, you get no playback controls:
@@ -183,19 +183,20 @@ This is not as immediately useful for video playback, but it does have advantage
 
 You can solve both these problems by hiding the native controls (by removing the controls attribute), and programming your own with HTML, CSS, and JavaScript.
 
-## Exploring the HTML
+##### Exploring the HTML
 
-* The <video> element contains two <source> elements so that different    formats can be loaded depending on the browser viewing the site.
+* The video element contains two source elements so that different    formats can be loaded depending on the browser viewing the site.
 
 * The controls HTML is probably the most interesting:
-    * We have four <button>s — play/pause, stop, rewind, and fast forward.
+    
+    * We have four buttons — play/pause, stop, rewind, and fast forward.
 
-    * Each <button> has a class name, a data-icon attribute for defining what icon should be shown on each button (we'll show how this works in the below section), and an aria-label attribute to provide an understandable description of each button, since we're not providing a human-readable label inside the tags. The contents of aria-label attributes are read out by screenreaders when their users focus on the elements that contain them.
+    * Each button has a class name, a data-icon attribute for defining what icon should be shown on each button (we'll show how this works in the below section), and an aria-label attribute to provide an understandable description of each button, since we're not providing a human-readable label inside the tags. The contents of aria-label attributes are read out by screenreaders when their users focus on the elements that contain them.
 
 
-    * There is also a timer <div>, which will report the elapsed time when  the video is playing. Just for fun, we are providing two reporting mechanisms — a <span> containing the elapsed time in minutes and seconds, and an extra <div> that we will use to create a horizontal indicator bar that gets longer as the time elapses.
+    * There is also a timer <div>, which will report the elapsed time when  the video is playing. Just for fun, we are providing two reporting mechanisms — a span containing the elapsed time in minutes and seconds, and an extra <div> that we will use to create a horizontal indicator bar that gets longer as the time elapses.
 
-## Exploring the CSS
+##### Exploring the CSS
 
 * We set the outer .timer <div> to have flex: 5, so it takes up most of the width of the controls bar. We also give it position: relative, so that we can position elements inside it conveniently according to it's boundaries, and not the boundaries of the <body> element.
 
@@ -208,7 +209,7 @@ You can solve both these problems by hiding the native controls (by removing the
 
 * We also give our inner <div> and <span> the right amount of z-index so that the timer will be displayed on top, and the inner <div> below that. This way, we make sure we can see all the information — one box is not obscuring another.
 
-## Implementing the JavaScript
+##### Implementing the JavaScript
 
 1. First of all, we work out the number of minutes and seconds in the  HTMLMediaElement.currentTime value.
 
