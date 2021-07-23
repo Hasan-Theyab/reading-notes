@@ -22,7 +22,7 @@
 
 
 
-##### IMAGE ROLLOVERS & SPRITES
+### IMAGE ROLLOVERS & SPRITES
 
 Using CSS, it is possible to create a link or button that changes to a second style when a user moves their mouse over it (known as a **rollover**) and a third style when they click on it.
 
@@ -39,10 +39,10 @@ When a single image is used for several different parts of an interface, it is k
 The advantage of using sprites is that the web browser only needs to request one image rather than many images, which can make the web page load faster.
 
 HTML CODE:
-<!-- <a class="button" id="add-to-basket">
-Add to basket</a>
-<a class="button" id="framing-options">
-Framing options</a> -->
+a class="button" id="add-to-basket"
+Add to basket /a
+a class="button" id="framing-options"
+Framing options /a
 
 
 
@@ -87,7 +87,7 @@ background-position: -175px -80px;}
 
 
 
-##### FTP & Third Party Tools
+### FTP & Third Party Tools
 
 To transfer your code and images from your computer to your hosting company, you use something known as File Transfer Protocol.
 
@@ -112,27 +112,27 @@ When you purchase your web hosting, you will be given FTP details that you enter
 
 Here is a list of some popular FTP applications:
 
-**FileZilla**
+**FileZilla:**
 filezilla-project.org
 Windows, Mac, Linux
 
 
-**FireFTP**
+**FireFTP:**
 fireftp.mozdev.org
 Windows, Mac, Linux
 
 
-**CuteFTP**
+**CuteFTP:**
 cuteftp.com
 Windows, Mac
 
 
-**SmartFTP**
+**SmartFTP:**
 smartftp.com
 WIndows
 
 
-**Transmit**
+**Transmit:**
 panic.com/transmit
 Mac
 
@@ -165,15 +165,15 @@ addtoany.com
 
 # Video and Audio APIs
 
-##### HTML5 video and audio
+### HTML5 video and audio
 
-<!-- The (<video>) and <audio> elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this: -->
+The (video) and (audio) elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
 
-<!-- <video controls>
-  <source src="rabbit320.mp4" type="video/mp4">
-  <source src="rabbit320.webm" type="video/webm">
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
-</video> -->
+(video controls)
+  (source src="rabbit320.mp4" type="video/mp4")
+  (source src="rabbit320.webm" type="video/webm")
+  (p) Your browser doesn't support HTML5 video. Here is a (a href="rabbit320.mp4")link to the video (/a) instead.(/p)
+(/video)
 
 
 This creates a video player inside the browser, the most interesting attribute is controls, which enables the default set of playback controls. If you don't specify this, you get no playback controls:
@@ -183,7 +183,7 @@ This is not as immediately useful for video playback, but it does have advantage
 
 You can solve both these problems by hiding the native controls (by removing the controls attribute), and programming your own with HTML, CSS, and JavaScript.
 
-##### Exploring the HTML
+### Exploring the HTML
 
 * The video element contains two source elements so that different    formats can be loaded depending on the browser viewing the site.
 
@@ -196,7 +196,7 @@ You can solve both these problems by hiding the native controls (by removing the
 
     * There is also a timer <div>, which will report the elapsed time when  the video is playing. Just for fun, we are providing two reporting mechanisms — a span containing the elapsed time in minutes and seconds, and an extra <div> that we will use to create a horizontal indicator bar that gets longer as the time elapses.
 
-##### Exploring the CSS
+### Exploring the CSS
 
 * We set the outer .timer <div> to have flex: 5, so it takes up most of the width of the controls bar. We also give it position: relative, so that we can position elements inside it conveniently according to it's boundaries, and not the boundaries of the <body> element.
 
@@ -204,12 +204,12 @@ You can solve both these problems by hiding the native controls (by removing the
 * The inner <div> is absolutely positioned to sit directly on top of the outer <div>. It is also given an initial width of 0, so you can't see it at all. As the video plays, the width will be increased via JavaScript as the video elapses.
 
 
-* The <span> is also absolutely positioned to sit near the left hand side of the timer bar.
+* The (span) tag is also absolutely positioned to sit near the left hand side of the timer bar.
 
 
-* We also give our inner <div> and <span> the right amount of z-index so that the timer will be displayed on top, and the inner <div> below that. This way, we make sure we can see all the information — one box is not obscuring another.
+* We also give our inner <div> and (span) tag the right amount of z-index so that the timer will be displayed on top, and the inner <div> below that. This way, we make sure we can see all the information — one box is not obscuring another.
 
-##### Implementing the JavaScript
+### Implementing the JavaScript
 
 1. First of all, we work out the number of minutes and seconds in the  HTMLMediaElement.currentTime value.
 
