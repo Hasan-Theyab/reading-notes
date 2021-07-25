@@ -61,7 +61,7 @@ If fallback content is not needed, a simple canvas id="foo" ...(/canvas) is full
 
 The canvas element creates a fixed-size drawing surface that exposes one or more **rendering contexts**, which are used to create and manipulate the content shown. In this tutorial, we focus on the 2D rendering context. Other contexts may provide different types of rendering; for example, WebGL uses a 3D context based on OpenGL ES.
 
-The canvas is initially blank. To display something, a script first needs to access the rendering context and draw on it. The <canvas> element has a method called **getContext()**, used to obtain the rendering context and its drawing functions. getContext() takes one parameter, the type of context.
+The canvas is initially blank. To display something, a script first needs to access the rendering context and draw on it. The (canvas) element has a method called **getContext()**, used to obtain the rendering context and its drawing functions. getContext() takes one parameter, the type of context.
 
 The first line in the script retrieves the node in the DOM representing the (canvas) element by calling the document.getElementById() method. Once you have the element node, you can access the drawing context using its **getContext()** method.
 
@@ -89,9 +89,7 @@ Now let's look at paths. A path is a list of points, connected by segments of li
 
 As we have seen in the last example, there can be a series of paths and drawing commands to draw objects onto your canvas. To simplify the code and to improve performance, the Path2D object, available in recent versions of browsers, lets you cache or record these drawing commands. You are able to play back your paths quickly.
 Let's see how we can construct a **Path2D** object:
-
 Path2D()
-
 The **Path2D()** constructor returns a newly instantiated **Path2D** object, optionally with another path as an argument (creates a copy), or optionally with a string consisting of **SVG path** data.
 
 All path methods like **moveTo, rect, arc or quadraticCurveTo, etc.**, which we got to know above, are available on **Path2D** objects.
@@ -188,7 +186,10 @@ When using **fill** (or **clip** and **isPointInPath**) you can optionally provi
 Two values are possible:
 
 **"nonzero":** ***The non-zero winding rule,*** which is the default rule.
+
+
 **"evenodd":** ***The even-odd winding rule.***
+
 
 ### Drawing text
 
