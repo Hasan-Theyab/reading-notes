@@ -279,7 +279,7 @@ The Indexed Database API exposes what’s called an *object store*. An object st
 
 
 
-If you’ve done any SQL database programming, these terms probably sound familiar. The primary difference is that the object store has no structured query language. You don’t construct a statement like **"SELECT * from USERS where ACTIVE = 'Y'".** Instead, you use methods provided by the object store to open a cursor on the database named **“USERS,”** enumerate through the records, filter out records for inactive users, and use accessor methods to get the values of each field in the remaining records. **An early walk-through of IndexedDB** is a good tutorial of how IndexedDB works, giving side-by-side comparisons of **IndexedDB** and **Web SQL Database.**
+If you’ve done any SQL database programming, these terms probably sound familiar. The primary difference is that the object store has no structured query language. You don’t construct a statement like **"SELECT from USERS where ACTIVE = 'Y'".** Instead, you use methods provided by the object store to open a cursor on the database named **“USERS,”** enumerate through the records, filter out records for inactive users, and use accessor methods to get the values of each field in the remaining records. **An early walk-through of IndexedDB** is a good tutorial of how IndexedDB works, giving side-by-side comparisons of **IndexedDB** and **Web SQL Database.**
 
 
 
