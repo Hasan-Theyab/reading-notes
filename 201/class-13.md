@@ -59,24 +59,35 @@ Which browsers? Well, the latest version of pretty much every browser supports H
 From your JavaScript code, you’ll access HTML5 Storage through the **localStorage** object on the global **window** object. Before you can use it, you should **detect whether the browser supports it.**
 
 
- ### check for HTML5 Storage:
+### check for HTML5 Storage:
 
  function supports_html5_storage() {
+
   try {
+
     return 'localStorage' in window && window['localStorage'] !== null;
+  
   } catch (e) {
+  
     return false;
+  
   }
+
 }
 
 Instead of writing this function yourself, you can use Modernizr to detect support for HTML5 Storage.
 
 
 if (Modernizr.localstorage) {
+
   // window.localStorage is available!
+
 } else {
+
   // no native support for HTML5 storage :(
+
   // maybe try dojox.storage or a third-party solution
+
 }
 
 
@@ -86,8 +97,11 @@ HTML5 Storage is based on named key/value pairs. You store data based on a named
 
 
 **interface Storage {**
+
   **getter any getItem(in DOMString key);**
+
   **setter creator void setItem(in DOMString key, in any data);**
+
 **};**
 
 
@@ -96,22 +110,35 @@ Calling **setItem()** with a named key that already exists will silently overwri
 Like other JavaScript objects, you can treat the **localStorage** object as an associative array. Instead of using the **getItem()** and **setItem()** methods, you can simply use square brackets. For example, this snippet of code:
 
 **var foo = localStorage.getItem("bar");**
+
+
 **// ...**
+
+
 **localStorage.setItem("bar", foo);**
 
 
 …could be rewritten to use square bracket syntax instead:
 
 **var foo = localStorage["bar"];**
+
 **// ...**
+
+
 **localStorage["bar"] = foo;**
 
 
 There are also methods for removing the value for a given named key, and clearing the entire storage area (that is, deleting all the keys and values at once).
 
 **interface Storage {**
+
+
   **deleter void removeItem(in DOMString key);**
+
+
   **void clear();**
+
+
 **};**
 
 
@@ -122,8 +149,14 @@ Finally, there is a property to get the total number of values in the storage ar
 
 
 **interface Storage {**
+
+
   **readonly attribute unsigned long length;**
+
+
   **getter DOMString key(in unsigned long index);**
+
+
 **};**
 
 
@@ -139,9 +172,18 @@ The **storage** event is supported everywhere the **localStorage** object is sup
 
 
 if (window.addEventListener) {
+
+  
+
   window.addEventListener("storage", handle_storage, false);
+
+
 } else {
+
+
   window.attachEvent("onstorage", handle_storage);
+
+
 };
 
 
@@ -149,7 +191,11 @@ The **handle_storage** callback function will be called with a **StorageEvent** 
 
 
 function handle_storage(e) {
+
+  
   if (!e) { e = window.event; }
+
+
 }
 
 
@@ -183,10 +229,25 @@ One vision is an acronym that you probably know already: **SQL. In 2007,** Googl
 ↶ actual working code in 4 browsers
 
 
-openDatabase('documents', '1.0', 'Local document storage', 5*1024*1024, function (db) {
+openDatabase('documents', '1.0', 'Local document storage', 5*1024*1024, 
+
+
+
+
+
+function (db) {
+
+
   db.changeVersion('', '1.0', function (t) {
+
+
     t.executeSql('CREATE TABLE docids (id, name)');
+
+
+
   }, error);
+
+
 });
 
 
@@ -226,4 +287,4 @@ At time of writing, **IndexedDB** has only been implemented in **a beta version 
 
 
 
-So what can you, as a web developer, do with **IndexedDB**? At the moment, virtually nothing beyond some technology demos. A year from now? Maybe something. Check the “Further Reading” section for links to some good tutorials to get you started.
+So what can you, as a web developer, do with **IndexedDB**? At the moment, virtually nothing beyond some technology demos. A year from now? Maybe something. 
