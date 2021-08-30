@@ -1,9 +1,21 @@
+# Reading Notes
+
+
 **Introduction:**
 
 My name's Hasan Theyab,I'm a civil engineer,I have windows 10 Pro as operating system for my laptop,I'm excited for this class because it's teaching me how to build websites in very easy way.
 
 
 ***This site is to show the summarizings that we've done in the reading assignments on GitHub.***
+
+
+
+## Code 102 - Intro to Software Development
+## Code 201 - Foundations of Software Development
+## Code 301 - Intermediate Software Development
+## Code 401 - Advanced Software Development
+
+
 
 
 # Code 102 Reading Notes
